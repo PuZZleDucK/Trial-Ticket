@@ -3,10 +3,7 @@ class GraphqlController < ApplicationController
     variables = ensure_hash(params[:variables])
     query = "{products}" # parse graphQL query and use in this query
     operation_name = params[:operationName]
-    context = {
-      # Query context goes here, for example:
-      # current_user: current_user,
-    }
+    context = {}
     result = TicketSchema.execute(query)
 
     render json: result
