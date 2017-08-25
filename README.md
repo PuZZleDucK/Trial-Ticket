@@ -5,10 +5,11 @@ Implimenting a GraphQL api in Rails
 # Plan
 - [x] Init repo
 - [x] Document task
-  - [ ] Setup project
+  - [x] Setup project
+  - [ ] Setup Rspec
   - [ ] Setup graphql
   - [ ] Code
-  - [ ] Test
+  - [ ] Review tests
 - [ ] Subclass expiring Store products
 
 # Entities
@@ -18,5 +19,4 @@ Implimenting a GraphQL api in Rails
 # Issues/Probl
 - Rspec
 - GraphQL "interface"
-- Rails commands fail
-- No more mac :D
+- Rails commands fail... no more mac :D
