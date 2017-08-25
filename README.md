@@ -8,6 +8,7 @@ Implimenting a GraphQL api in Rails
   - [x] Setup project
   - [ ] Setup Rspec
   - [ ] Setup graphql
+  - [ ] Object models
   - [ ] Code
   - [ ] Review tests
 - [ ] Subclass expiring Store products
@@ -20,3 +21,4 @@ Implimenting a GraphQL api in Rails
 - Rspec
 - GraphQL "interface"
 - Rails commands fail... no more mac :D
+- Removed spring due to bug with bundler: https://github.com/bundler/bundler/issues/4165
