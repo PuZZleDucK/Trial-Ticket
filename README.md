@@ -8,7 +8,7 @@ Implimenting a GraphQL api in Rails
   - [x] Setup project
   - [x] Setup Rspec
   - [x] Setup graphql
-  - [ ] Object models
+  - [x] Object models
   - [ ] Code
   - [ ] Review tests
 - [ ] Subclass expiring Store products
