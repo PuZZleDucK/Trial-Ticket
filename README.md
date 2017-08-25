@@ -6,8 +6,8 @@ Implimenting a GraphQL api in Rails
 - [x] Init repo
 - [x] Document task
   - [x] Setup project
-  - [ ] Setup Rspec
-  - [ ] Setup graphql
+  - [x] Setup Rspec
+  - [x] Setup graphql
   - [ ] Object models
   - [ ] Code
   - [ ] Review tests
