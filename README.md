@@ -12,13 +12,15 @@ Implimenting a GraphQL api in Rails
   - [x] Seed values
   - [ ] Code
   - [ ] Review tests
-- [ ] Subclass expiring Store products
+- [x] Subclass expiring Store products
 
 # Entities
 - Product (title price)
 - Store Product (expiry_date)
 
 # Issues/Probl
+- Where do the params from chromeiQL go?
+- Different responses from chromeiQL and chrome
 - Rspec
 - GraphQL "interface"
 - Rails commands fail... no more mac :D
