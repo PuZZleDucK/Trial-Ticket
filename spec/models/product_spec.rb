@@ -1,5 +1,12 @@
 require 'rails_helper'
 
+
 RSpec.describe Product, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+
+      it "Products can be created" do
+         product = Product.new({ title: "item one", price: 111});
+         expect(product.title).to eq "item one"
+         expect(product.price).to eq 111
+      end
+
 end
