@@ -1,7 +1,7 @@
 class GraphqlController < ApplicationController
   def execute
     variables = ensure_hash(params[:variables])
-    query = "{products}" # parse graphQL query and use in this query
+    query = params[:query]
     operation_name = params[:operationName]
     context = {}
     result = TicketSchema.execute(query)
