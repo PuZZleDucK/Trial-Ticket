@@ -1,6 +1,5 @@
 require 'rails_helper'
 
-
 RSpec.describe Product, type: :model do
 
       it "Products can be created" do

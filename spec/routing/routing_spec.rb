@@ -8,15 +8,14 @@ describe "Routing", type: :request do
 
   it "Fetching without params gets error" do
     get "/graphql"
+    # verify response
     expect(response.body).to eq '{"errors":[{"message":"No query string was present"}]}'
   end
 
   it "Fetching main endpoint responds" do
-    # fetch main endpoint
     post "/graphql", :query => ""
     # verify response
     expect(response.body).to eq "{}"
-    # verify it's not an error
     expect(response.status).to eq 200
   end
 

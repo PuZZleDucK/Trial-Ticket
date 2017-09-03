@@ -27,8 +27,8 @@ Now open the endpoint ```http://localhost:3000/graphql``` in a browser or Chrome
   - [x] Setup graphql
   - [x] Object models
   - [x] Seed values
-  - [ ] Code
-  - [ ] Review tests
+  - [x] Code
+  - [x] Review tests
 - [x] Subclass expiring Store products
 
 # Entities
