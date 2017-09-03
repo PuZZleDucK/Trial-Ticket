@@ -4,7 +4,7 @@ class GraphqlController < ApplicationController
     query = params[:query]
     operation_name = params[:operationName]
     context = {}
-    result = TicketSchema.execute(query)
+    result = TicketSchema.execute(query, variables: variables)
 
     render json: result
   end
