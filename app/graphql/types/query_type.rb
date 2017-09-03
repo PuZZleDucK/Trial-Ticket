@@ -1,11 +1,16 @@
 Types::QueryType = GraphQL::ObjectType.define do
   name "Query"
-  # Add root-level fields here.
-  # They will be entry points for queries on your schema.
 
   # top level product entry... needs to point to already defined product types
-  field :products, types[Types::StoreProductType] do
+  field :products, types[Types::ProductType] do
     description "Basic Product Field"
+    resolve ->(obj, args, ctx) {
+      Product.all()
+    }
+  end
+
+  field :store_products, types[Types::StoreProductType] do
+    description "Store Product Field"
     resolve ->(obj, args, ctx) {
       StoreProduct.all()
     }
